@@ -1,0 +1,6 @@
+使用方法说明：
+1. 将leap motion的USB插入电脑。
+2. 访问https://www.leapmotion.com/setup 下载驱动，安装。
+3. 检查leap motion的运行状态，如果在状态栏显示绿色方格，则说明设备正常。
+4. 打开BBSO页面http://127.0.0.1:8000/index.html，在页面点击鼠标左键，让当前页面获取焦点。
+5. 通过手势 上／下／左／右 控制页面。
