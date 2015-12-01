@@ -2,5 +2,10 @@
 1. 将leap motion的USB插入电脑。
 2. 访问https://www.leapmotion.com/setup 下载驱动，安装。
 3. 检查leap motion的运行状态，如果在状态栏显示绿色方格，则说明设备正常。
-4. 打开BBSO页面http://127.0.0.1:8000/index.html，在页面点击鼠标左键，让当前页面获取焦点。
-5. 通过手势 上／下／左／右 控制页面。
+4. 使用chrome浏览器打开BBSO页面（本地磁盘/steelcase-bbso2/index.html)，在页面点击鼠标左键，让当前页面获取焦点。
+5. 在windows上按F11或在mac下按alt+commnd+F使页面全屏显示。
+6. 通过手势 上／下／左／右 控制页面。
+
+
+备注：
+如果你没有steelcase-bbso2的本地代码拷贝，请访问网络地址(http://steelcase.createcdigital.com/steelcase-bbso2/)。但是因为网络带宽限制，如果你使用网络地址，图片和视频的加载都会很慢，有时会出现在第二个作品的图片页依旧是上一个看到的图片页（这时需要你耐心等待第二个作品的图片加载）。建议在演示过程中先操作一边，让浏览器对图片进行缓存。
