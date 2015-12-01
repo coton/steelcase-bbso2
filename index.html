@@ -36,7 +36,7 @@
 
   <div class="section" id="section2">
     <div class="slide">
-      <video autoplay controls="controls" src="images/p1/p1-3.mp4" type="video/mp4" id="section2-video" ></video>
+      <video controls="controls" src="images/p1/p1-3.mp4" type="video/mp4" id="section2-video" ></video>
     </div>
   </div>
 
@@ -160,6 +160,8 @@
               page_v_index = 1;
           }
 
+          palyorstopvideo();
+
           console.log("+++++++" + swipeDirection + ", page_h_index:" + page_h_index + ", page_v_index: " + page_v_index);
 
           setTimeout(function(){
@@ -176,6 +178,16 @@
       $("#section1-img").attr("src", "images/p" + p + "/p" + p + "-2.png");
       $("#section2-video").attr("src", "images/p" + p + "/p" + p + "-3.mp4");
       $("#section2-video").load();
+    }
+
+    function palyorstopvideo(){
+      if(page_v_index == 3)
+        $("#section2-video")[0].play();
+      else
+      {
+        $("#section2-video")[0].pause();
+        $("#section2-video").src = "";
+      }
     }
 
   </script>
