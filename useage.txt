@@ -3,7 +3,7 @@
 2. 访问https://www.leapmotion.com/setup 下载驱动，安装。
 3. 检查leap motion的运行状态，如果在状态栏显示绿色方格，则说明设备正常。
 4. 使用chrome浏览器打开BBSO页面（本地磁盘/steelcase-bbso2/index.html)，在页面点击鼠标左键，让当前页面获取焦点。
-5. 在windows上按F11或在mac下按alt+commnd+F使页面全屏显示。
+5. 在windows上按F11或在mac下按shift+command+F使页面全屏显示。
 6. 通过手势 上／下／左／右 控制页面。
 
 
